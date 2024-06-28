@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(roxo.jpg);
+    background-size: cover;
+}
+form{
+    top: 10%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+    background-color: rgba(248, 70, 248, 0.333);
+    margin:  20px auto;
+    backdrop-filter:blur(15px);
+}
+
+form label{
+    text-align: right;
+    padding: 15px;
+    align-self: center;
+    
+}
+#DL{
+    text-align: right;
+    padding: 25px;
+    align-self: center;
+}
+#DP{
+    text-align: right;
+    padding-top: 25px;
+    padding-bottom: 13px;
+    align-self: center;
+}
+#a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+#gen{
+    padding: 25px;
+}
+#termos{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+}
+input{
+	border-radius: 15px;
+    width: 50%;
+    border: 1px gray;
+}
+
+
+form input[name="pfp"]{
+    border-radius: 5px;
+}
+form input[name="idade"]{
+    color: black;
+}
+form input[type="file"]{
+    color: black;
+}
+form input[type="submit"]:focus{
+    color: black;
+}
+p{
+    font-weight: bolder;
+}
+#enviar{
+    margin: 25px;
+    align-self: center;
+}
+form input[type="submit"]:focus{
+    background-color: #aaec95;
+}
+form input[type="file"]:focus{
+    background-color: white;
+}
+input:required:valid{
+    color: green;
+}
+input:focus{
+ border: black;
+ font-size: 12px;
+ padding: 8px;
+}
+input:required:invalid{
+    color: red;
+}
+
+
+h1{
+    text-align: right;
+    padding-top: 45px;
+    padding: 20px;
+    align-self: center;
+}
